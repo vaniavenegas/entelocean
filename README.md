@@ -1,6 +1,6 @@
 # Video player view
 
-![View](../my-app/src/assets/view.png)
+![View](../master/src/assets/view.png)
 
 ## Getting Started with Create React App
 
