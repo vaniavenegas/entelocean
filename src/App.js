@@ -1,5 +1,5 @@
 import React from "react";
-import "./app.css"
+import "./App.css"
 import Header from "./components/Header";
 import SideMenu from "./components/SideMenu";
 import ReactPlayer from 'react-player/youtube';
