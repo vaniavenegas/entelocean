@@ -1,0 +1,42 @@
+.container{
+    width: 400px;
+    height: 300px;
+    margin-top: 0px;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.title h1{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    width: 300px;
+    border-radius: 0.8rem;
+    padding: 0.5rem;
+    transform: translateX(-50%);
+}
+
+
+
+.title-button-container{
+    display: block;
+    /* overflow:visible; */
+    width: 1000px;
+    height: 300px;
+    transform: translateX(-15%);
+    
+} 
+
+.title-button-container .title-button {
+    border-radius: 0.8rem;
+    /* overflow:visible; */
+    border: none;
+    padding: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.555);
+    
+
+}
+.title-button:hover {
+    background-color: rgb(221, 221, 221);
+}

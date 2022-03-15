@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./app.css"
+import Header from "./components/Header";
+import SideMenu from "./components/SideMenu";
+import ReactPlayer from 'react-player/youtube';
+
 
 function App() {
+
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="react-player">
+    
+    
+    
+    <Header />
+    <SideMenu />
+    
+    
+    <ReactPlayer 
+    url="https://www.youtube.com/watch?v=SWKSnVx1fQg&ab_channel=UnidadDigitalEntelOcean"
+    className='video'
+    controls={true}  
+    />
+    
+    
+
+    
     </div>
   );
 }
 
 export default App;
+
