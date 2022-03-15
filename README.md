@@ -1,5 +1,6 @@
 # Video player view
-![Image text] (https://github.com/vaniavenegas/entelocean/blob/master/src/assets/view.png)
+
+![View](../my-app/src/assets/view.png)
 
 ## Getting Started with Create React App
 
