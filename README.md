@@ -1,4 +1,7 @@
-# Getting Started with Create React App
+# Video player view
+![Image text] (https://github.com/vaniavenegas/entelocean/blob/master/src/assets/view.png)
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
